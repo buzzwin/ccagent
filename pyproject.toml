@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "reflection-agent"
+version = "0.1.0"
+description = ""
+authors = ["Gunjan <gunjanv@yahoo.com>"]
+readme = "README.md"
+packages = [{include = "reflection_agent"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.1"
+black = "^24.8.0"
+isort = "^5.13.2"
+langchain = "^0.2.15"
+langchain-openai = "^0.1.23"
+langgraph = "^0.2.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
