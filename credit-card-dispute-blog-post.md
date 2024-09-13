@@ -16,7 +16,7 @@ Credit card disputes are a common occurrence in the financial industry. Handling
 
 Our solution leverages the power of Large Language Models (LLMs) through LangChain, and orchestrates a complex workflow using LangGraph. Here's an overview of the system:
 
-![System Diagram](https://your-image-host.com/system-diagram.png)
+![Credit Card Dispute System Diagram](./credit-card-dispute-system-diagram.svg)
 
 ## Key Components
 
@@ -41,10 +41,10 @@ from typing import List
 from langchain_core.messages import BaseMessage, HumanMessage, SystemMessage
 from langgraph.graph import MessageGraph
 from chains import (
-    classify_dispute_chain, 
-    review_dispute_chain, 
-    generate_response_chain, 
-    fraud_detection_chain, 
+    classify_dispute_chain,
+    review_dispute_chain,
+    generate_response_chain,
+    fraud_detection_chain,
     customer_history_chain
 )
 
@@ -111,8 +111,4 @@ While this system provides many benefits, it's important to consider:
 
 ## Conclusion
 
-Building an AI-powered Credit Card Dispute Response Generator demonstrates the potential of combining LLMs with workflow orchestration tools like LangGraph. This approach not only improves efficiency but also opens up new possibilities for intelligent automation in the financial sector.
-
-As AI continues to evolve, we can expect to see more sophisticated applications that enhance customer service, streamline operations, and provide valuable insights across various industries.
-
-Ready to build your own AI-powered workflow? Check out the full code on [GitHub](https://your-github-repo-link) and start exploring the possibilities!
+Building an AI-powered Credit Card Dispute Response Generator demonstrates the potential of combining LLMs with workflow orchestration tools like LangGraph.
